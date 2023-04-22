@@ -1,0 +1,24 @@
+.head{
+    box-shadow: 0px 7px 2px -3px var(--line-color);height: 50px;
+    padding: 0px 20px;color: var(--color-blue);
+  }
+  .dflexcenter{   
+     display: flex; align-items: center;
+    }
+  .dropdownshow{ 
+    position: absolute; margin-top:5px;
+   }
+  .dropchild{ 
+    position: relative !important; float: left;max-width: 100%;background:white; z-index: 200;
+    box-shadow: 0 0 10px  #8080802e;
+  }
+    @media only screen and (min-width: 700px) {
+      .dropchild{
+        max-width:1140px;
+      }
+    }
+
+  .line {  border-right: 1px solid var(--line-color);  padding: 0px 3px;}
+  
+  .bottomLine{ border-bottom:1px solid var(--line-color)}
+

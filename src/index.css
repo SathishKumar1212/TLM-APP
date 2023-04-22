@@ -1,0 +1,64 @@
+:root{
+  --color-black: #000;
+  --bg-color:#fff;
+  --color-blue: #0d6efd;
+  --line-color:#9d959599;  /* a89c9c */
+  --text-color:#776d6d ;
+  --table-bg:#cdd3dc;
+}
+
+@font-face{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  src: url('./Assets/fonts/Poppins/Poppins-Bold.ttf');
+}
+
+@font-face{
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  src: url('./Assets/fonts/Poppins/Poppins-Regular.ttf');
+}
+.coltxt{ color:var(--color-blue) !important;}
+.header2nd{
+  font-size: 20px;color:var(--color-black);font-weight: bold; font-family: 'Poppins', sans-serif;
+}
+/* .td1, textarea{
+  width: 100%;
+  border: 1px solid var(--line-color);
+  color: var(--text-color)  !important;
+  font-size: 14px !important; 
+  height: 35px; padding: 7px; 
+} */
+.signupbtn{
+  background: white;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 40%;
+  margin-top: 15px;
+}
+.signupbtn:hover{     border: 1px solid #fff;background-color:white !important}
+.th1 {
+  text-transform: uppercase;
+  font-size: 12px!important;  
+  background: none !important;     margin: 10px; 
+  text-align: left;    font-weight: bolder;
+  font-weight: 600;color:var(--color-black) !important;  
+}
+.bluebg{ background-color: var(--color-blue) !important; color:white !important;}
+
+.subhead{
+  font-size: 15px !important;font-weight: 600;color:var(--color-black);
+}
+.alltext{
+  color: var(--text-color) !important;
+  font-size: 14px;
+}
+.mr2{ margin-right: 20px!important; }
+
+.borderline{ border: 1px  solid var(--line-color);}
+.text-danger{ color: red;     font-size: 12px; padding-left: 10px;}
+body{
+  text-transform: uppercase !important;
+  font-family: 'Poppins', sans-serif;
+}
